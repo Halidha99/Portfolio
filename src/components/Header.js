@@ -9,7 +9,7 @@ export default function Header(){
         <a className="font-bold  text-black" href="#">Fathima Halidha</a>
         {/* desktop device */}
         <nav className="hidden md:block">
-        <ul className="flex text-white">
+        <ul className="flex text-white font-heading-font">
             <li>Home</li>
             <li>About</li>
             <li>Education</li>
