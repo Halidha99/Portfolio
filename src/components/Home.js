@@ -1,10 +1,10 @@
 import { AiOutlineGithub ,AiOutlineLinkedin } from "react-icons/ai";
 import { FaStackOverflow } from "react-icons/fa";
 export default function Home(){
-return <section className="flex flex-col md:flex-row  px-5 py-32 bg-secondary justify-center">
+return <section className="flex flex-col md:flex-row  px-5 py-40 bg-secondary justify-center">
    {/* Tittle */}
-   <div className="md: w-1/2 flex flex-col">
-   <h1 className='  text-white text-5xl font-home-font' >Hi, <br/> I'm <span className="text-black hover:text-yellow-500">Fathima Halidha</span>
+   <div className="md: w-1/2 flex flex-col py-40 ">
+   <h1 className='  text-white text-6xl font-home-font' >Hi, <br/> I'm <span className="text-black hover:text-yellow-500 ">Fathima Halidha</span>
    <p className="text-2xl"> Full-Stack Developer</p>
    </h1>
    <div className="flex py-10">

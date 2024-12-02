@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 header ul li{
-  @apply px-3;
+  @apply px-5;
 
 }
 .bg-primary{
