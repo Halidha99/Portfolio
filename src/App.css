@@ -9,6 +9,9 @@ header ul li{
 .bg-primary{
   background: rgb(85 81 227);
 }
+.bg-third{
+  background: rgb(60, 58, 162);
+}
 
 
 .mobile-nav{

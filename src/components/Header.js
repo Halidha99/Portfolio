@@ -5,12 +5,12 @@ import { useState } from 'react'
 export default function Header(){
 
  const [toggleMenu,setToggleMenu]=useState(false);
-    return   <header className="flex justify-between px-5 py-2 bg-primary ">
-        <a className="font-bold  text-black" href="#">Fathima Halidha</a>
+    return   <header className="flex justify-between px-4 py-5  bg-primary ">
+        <a className="font-bold  text-black text-2xl" href="#">Fathima Halidha</a>
         {/* desktop device */}
         <nav className="hidden md:block">
-        <ul className="flex text-white font-heading-font">
-            <li>Home</li>
+        <ul className="flex text-white font-heading-font text-2xl">
+            <li >Home</li>
             <li>About</li>
             <li>Education</li>
             <li>Projects</li>
