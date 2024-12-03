@@ -1,5 +1,5 @@
 export default function Education(){
-    return<section className="flex flex-col md:flex-row bg-third px-4">
+    return<section id='education' className="flex flex-col md:flex-row bg-third px-4">
         <div className="md:w-1/2">
             <img className="py-5 rounded-s-full" src="/assest/10feb-blog-2023.jpg"/>
         </div>

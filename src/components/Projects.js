@@ -1,7 +1,7 @@
 
 export default function Projects(){
     // flex-col same row
-    return <section className="flex flex-col py-20 px-5 justify-center bg-secondary text-white">
+    return <section id='project' className="flex flex-col py-20 px-5 justify-center bg-secondary text-white">
 <div className="w-full">
 <div className="flex flex-col  px-5 py-5">
 <h1 className="text-4xl text-white border-b-4 border-[#03a9f4] text-left mb-5 w-[150px] font-bold  hover:scale-105  hover:text-yellow-300">Projects</h1>

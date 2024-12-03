@@ -1,6 +1,6 @@
 
 export default function About(){
-    return<selection className="flex flex-col md:flex-row bg-primary px-3">
+    return<selection id='about' className="flex flex-col md:flex-row bg-primary px-3" >
 <div className="md:w-1/2">
 <img className='py-4 rounded-full shadow-lg hover:scale-105 transition-transform duration-300' src='/assest/checksyllabus-banner.png' alt='Description' />
 </div>

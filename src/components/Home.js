@@ -10,7 +10,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMysql } from "react-icons/si";
 export default function Home(){
-return <section className="flex flex-col md:flex-row  px-5 py-20  bg-secondary justify-center">
+return <section id='home' className="flex flex-col md:flex-row  px-5 py-20  bg-secondary justify-center">
    {/* Tittle */}
    <div className="md: w-1/2 flex flex-col py-20 ">
    <h1 className='  text-white text-6xl font-home-font' >Hi, <br/> I'm <span className="text-black hover:text-yellow-500 ">Fathima Halidha</span>

@@ -1,6 +1,6 @@
 
 export default function Resume(){
-    return<selection className="flex flex-col md:flex-row bg-primary px-3">
+    return<selection id='resume' className="flex flex-col md:flex-row bg-primary px-3">
 <div className="py-5 md:w-1/2 flex justify-end">
 <img className=' w-[300px] shadow-lg hover:scale-105 transition-transform duration-300' src='/assest/resume.jpg' alt='Description' />
 </div>
