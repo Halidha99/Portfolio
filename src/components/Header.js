@@ -5,15 +5,16 @@ import { useState } from 'react'
 export default function Header(){
 
  const [toggleMenu,setToggleMenu]=useState(false);
-    return   <header className="flex justify-between px-4 py-5  bg-primary ">
-        <a className="font-bold  text-black text-2xl" href="#">Fathima Halidha</a>
+    return   <header className="flex justify-between px-3 py-4  bg-primary ">
+        <a className="font-bold  text-black text-2xl font-home-font text-emerald-950 hover:text-sky-400" href="#">FH.</a>
         {/* desktop device */}
         <nav className="hidden md:block">
-        <ul className="flex text-white font-heading-font text-2xl">
+        <ul className="flex text-white font-heading-font text-lg">
             <li >Home</li>
             <li>About</li>
             <li>Education</li>
             <li>Projects</li>
+            <li>Resume</li>
             <li>Contact</li>
         </ul>
         </nav>

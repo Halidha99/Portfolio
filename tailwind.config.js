@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily:{
       'home-font':'Sriracha',
-      'heading-font':'Poppins'
+      'heading-font':'Poppins',
+      'title-font':'Open+Sans'
     }
   },
   plugins: [],
