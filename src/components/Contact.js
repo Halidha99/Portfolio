@@ -2,7 +2,7 @@
 import { MdOutlineEmail } from "react-icons/md";
 export default function Contact(){
     return<selection id='contact' className="flex flex-col md:flex-row bg-third px-3">
-<div className="py-5 md:w-1/2 flex ">
+<div className="py-5 md:w-1/2 flex justify-center md:justify-end">
 <img className=' w-[300px] shadow-lg hover:scale-105 transition-transform duration-300' src='/assest/note-desktop_1160-561.jpg' alt='Description' />
 </div>
 <div className="md: w-1/2 flex justify-center">
